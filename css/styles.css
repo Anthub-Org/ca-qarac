@@ -632,6 +632,7 @@ figcaption {
 .footer-layout {
   min-height: 118px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
@@ -657,6 +658,17 @@ figcaption {
 
 .footer-layout a:hover {
   color: var(--red-deep);
+}
+
+.site-credit {
+  width: 100%;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.site-credit a {
+  color: var(--ink);
+  font-weight: 700;
 }
 
 @media (max-width: 900px) {
